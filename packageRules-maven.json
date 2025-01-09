@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["local>xavier-calland/renovate-reproduction-d31461-inherited:hostRules-nexus"],
+  "packageRules": [
+    {
+      "description": ["Use Nexus as Maven mirror"],
+      "matchDatasources": ["maven"],
+      "registryUrls": ["https://maven.priv.foo.com/"]
+    }
+  ]
+}

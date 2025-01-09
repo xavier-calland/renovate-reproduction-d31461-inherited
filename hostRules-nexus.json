@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "hostRules": [
+    {
+      "description": ["Nexus authentication for all sources priv.foo.com"],
+      "matchHost": "priv.foo.com",
+      "username": "{{ secrets.NEXUS3_USERNAME }}",
+      "password": "{{ secrets.NEXUS3_PASSWORD }}"
+    }
+  ]
+}

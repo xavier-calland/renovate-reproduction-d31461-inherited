@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "configMigration": true,
+  "gitAuthor": "Renovate Bot <renovatebot@foo.com>",
+  "extends": [
+    "config:recommended",
+    "local>xavier-calland/renovate-reproduction-d31461-inherited:packageRules-npm",
+    "local>xavier-calland/renovate-reproduction-d31461-inherited:packageRules-maven"
+  ]
+}
